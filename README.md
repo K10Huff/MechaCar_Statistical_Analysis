@@ -11,7 +11,7 @@ The purpose of this analysis was to discover statistically significant relations
 2. The Null Hypothesis of the multiple regression models posits that the slope of the linear regression model is zero. The p-value of our multiple linear regression analysis is 5.35e-11, which is far less than the assumed significance level of 0.05. Therefore, there is sufficient evidence to reject the null hypothesis and the slope is considered to be non-zero. 
 3. Since the r-squared is used to determine the likelihood that future data points will fit the linear model and the r-value is 0.6825 this model does effectively predict the mpg of MechaCar prototypes. 
 
-![ Linear Regression to Predict MPG](github link)
+![ Linear Regression to Predict MPG](https://github.com/K10Huff/MechaCar_Statistical_Analysis/blob/69a2c900e4170434ead60849417a14e0bbfddeb6/Resources/Summary%20Linear%20Regression%20to%20Predict%20MPG.png)
 
 ## Summary Statistics on Suspension Coils 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Data that is distributed normally assumes that 99.97% of the data for PSI is expected to fall within the range of [mean - 3(standard deviation): mean + 3(standard deviation)].
@@ -24,13 +24,13 @@ Following the same procedure with the individual lots we can populate a summary 
 | Lot Two | 1500 | 2.7 | 1508.1 - 1491.9 | Yes |
 | Lot Three | 1496 | 13 | 1,457 - 1535 | Yes | 
 
-![ Total and Lot Summary Table ](github link)
+![ Total and Lot Summary Table ](https://github.com/K10Huff/MechaCar_Statistical_Analysis/blob/69a2c900e4170434ead60849417a14e0bbfddeb6/Resources/Total%20and%20Lot%20Summary%20Tables.png)
 
 ## T-Tests on Suspension Coils
 summary of the t-test results across all manufacturing lots and for each lot. 
 For both the overall and the subset by lots, the p-value is sufficiently small enough to have sufficient evidence to reject the null hypothesis and state that the two means are statistically different.
 
-![ T-Tests Summary](git hub link)
+![ T-Tests Summary](https://github.com/K10Huff/MechaCar_Statistical_Analysis/blob/69a2c900e4170434ead60849417a14e0bbfddeb6/Resources/T-Tests%20Summary.png)
 
 ## Study Design: MechaCar vs Competition
 The purpose of this analysis would be to discover if there was a statistically significant difference between the overall cost of a car produced by MechaCar and that of its competitors. The data collected would include initial purchase price, maintenance cost, maintenance frequency, fuel efficiency for the city and highway and cost to insure. The null hypothesis would be that there is no difference between the performance of a MechaCar and that of its competitors. The alternate hypothesis would be that there is a different in performance MechaCar and that of its competitors.
